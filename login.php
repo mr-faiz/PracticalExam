@@ -1,10 +1,11 @@
 <?php
+
 session_start();
 require("connection.php");
 if(isset($_SESSION['SESS_LOGGEDIN'])) {
 header("Location: " . $config_basedir);
 }
-
+echo "This is updation from another devcelopers";
 if(isset($_POST['submit']))
 {
 $loginsql = "SELECT * FROM logins WHERE username = '" . $_POST['userBox']. "' AND password = '" . sha1($_POST['passBox']) . "'";
