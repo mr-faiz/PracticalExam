@@ -17,7 +17,7 @@
 		
 		if($row >= 1){
                         echo "<center>";
-			echo "<h2><a href='checkout-address.php'>Go to the checkout</a></h2>";
+			echo "<h2 style='text-color:green,text-decoration:italic'><a href='checkout-address.php'>Go to the checkout</a></h2>";
                         echo "</center>";
 
 		}
