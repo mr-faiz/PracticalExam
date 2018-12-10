@@ -50,7 +50,7 @@ echo "<strong>Incorrect username/password</strong>";
 </tr>
 <tr>
 <td>Password</td>
-<td><input type="text" name="passBox">
+<td><input type="password" name="passBox">
 </tr>
 <tr>
 <td></td>
